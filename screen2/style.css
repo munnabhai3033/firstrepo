@@ -1,0 +1,153 @@
+.main{
+	background-color: #06192a;
+	height:657px;
+}
+.headertext{
+	color: #ffffff;
+	padding-top: 52px;
+	margin-left: 12px;
+
+
+}
+.sampletext{
+	color: #304054;
+	padding-top:14px;
+	margin-left: 12px;
+
+}
+
+.closeicon{
+	color: #7a8090;
+	padding-left: 10px;
+
+	background-color: #323b54;
+	border-radius: 10px;
+	width: 290px;
+	margin-left: 12px;
+}
+.clsicon{
+	padding-left: 28px;
+}
+.dataexpolr{
+	color: #ffffff;
+	
+}
+.icontext{
+	margin-left: 10px;
+}
+.inputdata{
+  margin-top:8px;
+  height: 15px;
+  width: 30px;
+  margin-left:25px;
+  }
+  label{
+  	color: #ffffff;
+  }
+
+  .firstdata{
+  	background-color: #323b54;
+  }
+/*    toggle button   */
+    .switch {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 25px;
+  margin-left: 25px;
+}
+
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 8px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.seconddata{
+	
+	top: 50px;
+	position: absolute;
+	background-color:#323b54;
+}
+.collabration2{
+	top:87px;
+	position: absolute;
+	margin-right: 10px;
+}
+.icontext1{
+margin-left: 24px;
+
+}
+
+.thirdtdata{
+
+	top: 190px;
+	position: absolute;
+	background-color:#323b54;
+}
+.fourthddata{
+
+    top: 242px;
+	position: absolute;
+	background-color:#323b54;
+
+
+}
+
+.btnsubmit{
+	 top:304px;
+	position: absolute;
+    margin-left: 163px;
+}
+.sideimg{
+	margin-bottom: 10px;
+}

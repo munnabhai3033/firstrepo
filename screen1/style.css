@@ -1,0 +1,52 @@
+.main{
+	background-color: #06192a;
+	height:657px;
+
+}
+
+.login-text{
+	color: #ffffff;;
+	padding-top: 30px;
+	margin-left: 30px;
+	
+}
+.logtext{
+	color: #ffffff;;
+	padding-top: 20px;
+}
+label{
+	color: #ffffff;;
+}
+.login-inputs{
+	width: 350px;
+	border-radius: 10px;
+	border-bottom: 4px solid #f58025; 
+
+}
+input[type=text]{
+	box-sizing: border-box;
+    background-color:#323b54;
+}
+input[type=password]{
+	box-sizing: border-box;
+    background-color:#323b54;
+}
+form{
+	margin-left: 30px;
+}
+#btnsubmit{
+	background-color: #f58025;
+}
+.ForgetPwd{
+	text-decoration: none;
+	color: #ffffff;;
+}
+.footer-text{
+	padding-top: 30px;
+	color: #ffffff;
+	margin-left: 30px;
+}
+
+.side-image{
+	margin-top: 113px;
+}

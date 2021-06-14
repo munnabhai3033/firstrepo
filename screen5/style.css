@@ -1,0 +1,201 @@
+
+#dsbody{
+	background-color: #071b2e;
+	color:#F5F5F5; 
+}
+.navbar{
+	background-color:#06192a;
+	height: 50px;
+	position: relative; 
+}
+.navbar-brand{
+color: #ffffff;
+}
+
+.nav-link i{
+	color:#647590;
+	background-color:#0b2a42;
+	border: 1px solid #0b2a42;
+}
+
+.side-link{
+	list-style: none;
+	text-decoration: none;
+	line-height: 50px;
+	display: block;
+	box-sizing: border-box;
+	border-top: 1px solid rgba(255,255,255,.1);
+	border-bottom: 1px solid black;
+	background-color:#0b2a42;
+
+	
+}
+
+ul li:hover a{
+	padding-left: 20px;
+	color: WindowText;
+}
+ul li a{
+	color:#F5F5F5;
+
+}
+
+
+/*   right side bar styles start here */
+
+
+.inputdata{
+	border-style:hidden;
+	border-bottom: 2px solid white;
+	color: #929db9;
+	background-color: #00283d;
+
+}
+
+.inputdata1{
+	border-style:hidden;
+	border-bottom: 2px solid yellow;
+	color: #929db9;
+	background-color: #00283d;
+}
+.sidetext{
+	color:#F5F5F5;
+	line-height: 50px; 
+}
+.text-white{
+	background-color:#0b2a42;
+	border-style:hidden;
+	width: -webkit-fill-available;
+}
+
+.text-white1{
+	background-color:#0b2a42;
+	border-style:hidden;
+	margin-left: 15px;
+}
+.push-side{
+	margin-left: 15px;
+}
+/*-----   dashboard center data style start here ---*/
+
+.table{
+	background-color:white;
+}
+th{
+	background-color:#8a8c9e;
+}
+.sample{
+	color:#626c86;
+}
+.header-text{
+	font-size: 20px;
+}
+.header-text1{
+	font-size: 15px;
+	color: yellow;
+}
+.data-show{
+margin-left: 15px;
+height: 40px;
+width:199px;
+border-style: groove;
+background-color:#d4d6dc;
+color:#112334;  
+}
+
+#data{
+	background-color:white;
+	color:#112334;
+	border-top: 5px solid yellow;
+}
+.icon-style{
+	
+    margin-left:32px;
+    list-style: none;
+	text-decoration: none;
+	color: white;
+}
+#icon-style1{
+	
+    margin-left:46px;
+    list-style: none;
+	text-decoration: none;
+	background-color:#323b54;
+	width:94px; 
+}
+.search-icon{
+	
+    margin-left:506px;
+    list-style: none;
+	text-decoration: none;
+	color: white;
+}
+.middle-layer{
+	margin-top: 6px;
+}
+
+li.side-link.first {
+    background: #323b54;
+    /* border-right: 5px solid; */
+}
+.col-md-8.col-sm-12.col-xs-12.middile {
+    background: #323b54;
+}
+
+
+.checkdata{
+	color:#727a82;
+	font-size: 11px;
+}
+.sidecheck{
+	background-color: #323b54;
+	display: block;
+	box-sizing: border-box;
+	border-top: 1px solid rgba(255,255,255,.1);
+	border-bottom: 1px solid black;
+}
+.workflow{
+	background-color:#ffffff;
+	color: black;
+	display: -webkit-box;
+}
+.workflow h6{
+	font-size: 18px;
+}
+.workflow span{
+	font-size: 10px;
+	display: flex;
+	padding:0;
+	margin: 0;
+	padding-top: 14px;
+
+}
+.workflow a{
+	text-decoration: none;
+	float: right;
+}
+.workflow i{
+	background-color:#929db9;
+	color:#fff;
+	width:24px;
+	height:24px;
+	border-radius:2px;
+}
+.test{
+	margin-left:246px;
+	padding-top:5px;
+}
+.test1{
+	padding-top:14px;
+
+}
+.test2{
+	padding-top:5px;
+}
+.hrimg{
+	width: 869px;
+    height: 173px;
+}
+.hr{
+	margin-top: 12px;
+}

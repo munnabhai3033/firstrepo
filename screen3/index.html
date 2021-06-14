@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dash Board</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!--Navbar started here----->
+<nav class="navbar navbar-expand-md ">
+    <a class="navbar-brand" href="#">P-AIML</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#"><i class="fa fa-refresh fa-lg" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-search fa-lg" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-cc-jcb fa-lg" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-window-maximize fa-lg" aria-hidden="true"></i></a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-user-circle-o fa-lg" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+        
+    </div>
+</nav>
+
+<!--Navbar End here----->
+
+<!--Sidebar Start here----->
+<div class="container-fluid" id="dsbody">
+	<div class="row">
+<div class="Sidebar  side col-md-2 col-sm-12 col-xs-12">
+	<ul>
+		<li class="side-link first"><a href="" ><i class="fa fa-spinner" aria-hidden="true"></i>Data Exploration</a></li>
+		<li class="side-link"><a href="" ><i class="fa fa-align-left" aria-hidden="true"></i>Data Preparation</a></li>
+		<li class="side-link"><a href="" class="side-link2"><i class="fa fa-id-card-o" aria-hidden="true"></i>Model Building</a></li>
+		<li class="side-link"><a href="" class="side-link3"><i class="fa fa-bullseye" aria-hidden="true"></i>Model Selection</a></li>
+		<li class="side-link"><a href="" class="side-link4"><i class="fa fa-database" aria-hidden="true"></i>Deployment</a></li>
+		<li class="side-link"><a href="" class="side-link5"><i class="fa fa-map-o" aria-hidden="true"></i>Evalution</a></li>
+
+	</ul>
+</div>
+<!--side bar end here-->
+
+<!--dashboard main containet--->
+<div class="col-md-8 col-sm-12 col-xs-12 middile">
+
+<div>
+		<p class="Sample">Home/Project Name </p>
+	</div>
+	<div>
+		<p class="header-text">Data Exploration<i>/</i><span class="header-text1">Data Exploration Type</span></p>
+	</div>
+	<div class="">
+		<input type="button" name="" value="Sample Data" class="data-show">
+		<input type="button" name="" value="Univariatie Satatic" class="data-show" id="data">
+		<input type="button" name="" value="Multivarsite Satatic" class="data-show">
+		<input type="button" name="" value="Vizualization" class="data-show">
+	</div>
+
+<div class="middle-layer">
+		<label>Time Factor</label>
+		<select>
+			<option value="Last 12 Hrs">Last 12 Hrs</option>
+			<option value="Last 24 Hrs">Last 24 Hrs</option>
+		</select>
+		<label>Featuers</label>
+		<select>
+			<option>Daigonsis</option>
+			
+		</select>
+		<label>Static Type</label>
+		<select>
+			<option>mean</option>
+			
+		</select>
+
+		<a href="" class="search-icon"><i class="fa fa-search fa-lg" aria-hidden="true" ></i></a>
+		<a href="" class="icon-style"><i class="fa fa-share-alt fa-lg" aria-hidden="true" ></i></a>
+		<a href="" class="icon-style"><i class="fa fa-align-center fa-lg" aria-hidden="true" ></i></a>
+
+     <input type="button" name="" value="Export" id="icon-style1">
+	</div>
+
+<div class="table-responsive{-sm|-md|-lg|-xl}">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Features</th>
+        <th scope="col">Count</th>
+        <th scope="col">Mean</th>
+        <th scope="col">STD</th>
+        <th scope="col">MIN</th>
+        <th scope="col">25%</th>
+        <th scope="col">50%</th>
+        <th scope="col">75%</th>
+        <th scope="col">MIN</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        
+        <td>Radius_mean</td>
+        <td>344</td>
+        <td>10.45</td>
+        <td>10.45</td>
+        <td>1001</td>
+        <td>0.1118</td>
+        <td>0.2778</td>
+        <td>0.3002</td>
+        <td>0.1234</td>
+      </tr>
+       <tr>
+        
+        <td>texture_mean</td>
+        <td>344</td>
+        <td>10.45</td>
+        <td>10.45</td>
+        <td>1001</td>
+        <td>0.1118</td>
+        <td>0.2778</td>
+        <td>0.3002</td>
+        <td>0.1234</td>
+      </tr>
+       <tr>
+        
+        <td>perimeter_mean</td>
+        <td>344</td>
+        <td>10.45</td>
+        <td>10.45</td>
+        <td>1001</td>
+        <td>0.1118</td>
+        <td>0.2778</td>
+        <td>0.3002</td>
+        <td>0.1234</td>
+      </tr>
+
+       <tr>
+        
+        <td>area_mean</td>
+        <td>344</td>
+        <td>10.45</td>
+        <td>10.45</td>
+        <td>1001</td>
+        <td>0.1118</td>
+        <td>0.2778</td>
+        <td>0.3002</td>
+        <td>0.1234</td>
+      </tr>
+
+       <tr>
+        
+        <td>smoothness_mean</td>
+        <td>344</td>
+        <td>10.45</td>
+        <td>10.45</td>
+        <td>1001</td>
+        <td>0.1118</td>
+        <td>0.2778</td>
+        <td>0.3002</td>
+        <td>0.1234</td>
+      </tr>
+
+       <tr>
+        
+        <td>compactness_mean</td>
+        <td>344</td>
+        <td>10.45</td>
+        <td>10.45</td>
+        <td>1001</td>
+        <td>0.1118</td>
+        <td>0.2778</td>
+        <td>0.3002</td>
+        <td>0.1234</td>
+      </tr>
+
+       <tr>
+        
+        <td>concavity_mean</td>
+        <td>344</td>
+        <td>10.45</td>
+        <td>10.45</td>
+        <td>1001</td>
+        <td>0.1118</td>
+        <td>0.2778</td>
+        <td>0.3002</td>
+        <td>0.1234</td>
+      </tr>
+
+       <tr>
+        
+        <td>Symmetry_mean</td>
+        <td>344</td>
+        <td>10.45</td>
+        <td>10.45</td>
+        <td>1001</td>
+        <td>0.1118</td>
+        <td>0.2778</td>
+        <td>0.3002</td>
+        <td>0.1234</td>
+      </tr>
+      <tr>
+        
+        <td>Fractal_Dimension_mean</td>
+        <td>344</td>
+        <td>10.45</td>
+        <td>10.45</td>
+        <td>1001</td>
+        <td>0.1118</td>
+        <td>0.2778</td>
+        <td>0.3002</td>
+        <td>0.1234</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+
+
+</div>
+
+<div class="sidebar col-md-2 col-sm-12 col-xs-12">
+	<div>
+		<input type="button" name="data input" value="Data Input" class="inputdata">
+		<input type="button" name="data join" value="Data Join" class="inputdata1">
+	</div>
+	<div>
+		<p class="sidetext">Apply Data Input Properties </p>
+	</div>
+
+	<div>
+		<label>Files</label>
+		<input type="text" name="" placeholder="Name of the File" class="text-white">
+	</div>
+	<div class="push-side">
+		<label>Operation</label>
+		<input type="text" name="" placeholder="Append" class="text-white1">
+
+		<label>Join How</label>
+		<input type="text" name="" placeholder="Inner, Left, Right" class="text-white1">
+
+		<label>Join On</label>
+		<input type="text" name="" placeholder="Radius_mean" class="text-white1">
+	</div>
+
+	<div>
+		<label>Files</label>
+		<input type="text" name="" placeholder="Name of the File" class="text-white">
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>
